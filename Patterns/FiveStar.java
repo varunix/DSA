@@ -9,6 +9,7 @@ public class FiveStar {
 
             System.out.println();
         }
+        System.out.println();
     }
 }
 

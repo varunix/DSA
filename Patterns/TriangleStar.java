@@ -25,6 +25,8 @@ class TriangleStar {
 
             System.out.println();
         }
+
+        System.out.println();
     }
 }
 
