@@ -25,3 +25,10 @@ public class TriangleStarSecond {
         System.out.println();
     }
 }
+
+// Output:
+// * * * * *
+// * * * *
+// * * *
+// * *
+// *
