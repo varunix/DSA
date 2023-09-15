@@ -1,6 +1,5 @@
-package InputOut;
+package InputOutput;
 import java.util.*;
-
 
 public class InputOutput {
 
