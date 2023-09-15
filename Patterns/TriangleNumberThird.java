@@ -1,9 +1,9 @@
 package Patterns;
 
-public class TriangleNumber {
-    public static void printTriangleNumber(int n) {
+public class TriangleNumberThird {
+    public static void printTriangleNumberThird(int n) {
         for(int i = 1; i <= n; i++) {
-            for(int j = 1; j <= i; j++) {
+            for(int j = 1; j <= n-i+1; j++) {
                 System.out.print(j);
             }
 
@@ -13,10 +13,3 @@ public class TriangleNumber {
         System.out.println();
     }
 }
-
-// Output:
-// 1
-// 12
-// 123
-// 1234
-// 12345

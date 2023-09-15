@@ -13,3 +13,10 @@ public class TriangleNumberSecond {
         System.out.println();
     }
 }
+
+// Output:
+// 1
+// 22
+// 333
+// 4444
+// 55555
