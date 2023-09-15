@@ -8,6 +8,10 @@ public class Main {
         TriangleNumberSecond triangleNumberSecond = new TriangleNumberSecond();
         TriangleStarSecond triangleStarSecond = new TriangleStarSecond();
         TriangleNumberThird triangleNumberThird = new TriangleNumberThird();
+        Pyramid pyramid = new Pyramid();
+        PyramidReverse reversePyramid = new PyramidReverse();
+        PyramidDiamond pyramidDiamond = new PyramidDiamond();
+        PyramidDiamondSecond pyramidDiamondSecond = new PyramidDiamondSecond();
         int n = 5;
         fiveStar.printStar(n);
         triangleStar.printTriangleStar(n);
@@ -15,5 +19,9 @@ public class Main {
         triangleNumberSecond.printTriangleNumberSecond(n);
         triangleStarSecond.printTriangleStarSecond(n);
         triangleNumberThird.printTriangleNumberThird(n);
+        pyramid.printPyramid(n);
+        reversePyramid.printReversePyramid(n);
+        pyramidDiamond.printPyramidDiamond(n);
+        pyramidDiamondSecond.printPyramidDiamondSecond(n);
     }
 }
