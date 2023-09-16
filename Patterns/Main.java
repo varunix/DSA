@@ -12,6 +12,18 @@ public class Main {
         PyramidReverse reversePyramid = new PyramidReverse();
         PyramidDiamond pyramidDiamond = new PyramidDiamond();
         PyramidDiamondSecond pyramidDiamondSecond = new PyramidDiamondSecond();
+        TriangleNumberFourth triangleNumberFourth = new TriangleNumberFourth();
+        PyramidNumber pyramidNumber = new PyramidNumber();
+        TriangleNumberFifth triangleNumberFifth = new TriangleNumberFifth();
+        TriangleCharacters triangleCharacters = new TriangleCharacters();
+        TriangleCharactersSecond triangleCharactersSecond = new TriangleCharactersSecond();
+        TriangleCharactersThird triangleCharactersThird = new TriangleCharactersThird();
+        PyramidCharacters pyramidCharacters = new PyramidCharacters();
+        TriangleCharactersFourth triangleCharactersFourth = new TriangleCharactersFourth();
+        PyramidDiamondThird pyramidDiamondThird = new PyramidDiamondThird();
+        PyramidDiamondFourth pyramidDiamondFourth = new PyramidDiamondFourth();
+        SquareStar squareStar = new SquareStar();
+        SquareNumber squareNumber = new SquareNumber();
         int n = 5;
         fiveStar.printStar(n);
         triangleStar.printTriangleStar(n);
@@ -23,5 +35,17 @@ public class Main {
         reversePyramid.printReversePyramid(n);
         pyramidDiamond.printPyramidDiamond(n);
         pyramidDiamondSecond.printPyramidDiamondSecond(n);
+        triangleNumberFourth.printTriangleNumberFourth(n);
+        pyramidNumber.printPyramidNumber(n);
+        triangleNumberFifth.printTriangleNumberFifth(n);
+        triangleCharacters.printTriangleCharacters(n);
+        triangleCharactersSecond.printTriangleCharactersSecond(n);
+        triangleCharactersThird.printTriangleCharactersSecond(n);
+        pyramidCharacters.printPyramidCharacters(n);
+        triangleCharactersFourth.printTriangleCharactersFourth(n);
+        pyramidDiamondThird.printPyramidDiamondSecond(n);
+        pyramidDiamondFourth.printPyramidDiamondFourth(n);
+        squareStar.printSquareStar(n);
+        squareNumber.printSquareNumber(n);
     }
 }
