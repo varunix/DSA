@@ -13,3 +13,6 @@ public class ReverseInteger {
         else System.out.println("Reverse Integer: " + (int)sum);
     }
 }
+
+// Output: -321
+
