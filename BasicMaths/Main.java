@@ -8,11 +8,13 @@ public class Main {
         AllDivisors allDivisors = new AllDivisors();
         Gcd gcd = new Gcd();
         Armstrong armstrong = new Armstrong();
+        PrimeOrNot primeOrNot = new PrimeOrNot();
         countDigits.count_Digits(12345);
         reverseInteger.reverse_Integer(-123);
         palindrome.printPalindrome(-121);
         allDivisors.printAllDivisors(36);
         gcd.printGcd( 12, 33);
         armstrong.printArmstrong(153);
+        primeOrNot.printPrimeOrNot(17);
     }
 }
