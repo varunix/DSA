@@ -50,5 +50,6 @@ public class ReverseArray {
         // int[] reverseArray = reverseArray(0, n-1, arr);
         int[] reverseArray = reverseArray(0, n, arr);
         printArray(reverseArray);
+        System.out.println();
     }
 }
