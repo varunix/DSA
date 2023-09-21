@@ -5,8 +5,10 @@ public class Main {
         Count count = new Count();
         Sum sum = new Sum();
         Factorial factorial = new Factorial();
+        ReverseArray reverseArray = new ReverseArray();
         count.printNTimes(5);
         sum.printFirstNaturalNumbers(5);
         factorial.printFactorialOfNumber(5);
+        reverseArray.printReverseArray(5);
     }
 }
