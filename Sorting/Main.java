@@ -3,6 +3,8 @@ package Sorting;
 public class Main {
     public static void main (String args[]) {
         SelectionSort selectionSort = new SelectionSort();
-        selectionSort.selectionSort(6);
+        BubbleSort bubbleSort = new BubbleSort();
+        // selectionSort.selectionSort(6);
+        bubbleSort.bubbleSort(6);
     }
 }
