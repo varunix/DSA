@@ -14,3 +14,10 @@ public class SquareStar {
         System.out.println();
     }
 }
+
+// Output:
+// *****
+// *   *
+// *   *
+// *   *
+// *****
