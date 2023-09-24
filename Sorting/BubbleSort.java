@@ -23,16 +23,30 @@ public class BubbleSort {
     }
 
     static int[] sortArr(int[] arr) {
-        for(int i = arr.length-1; i >= 1; i--) {
+        // for(int i = arr.length-1; i >= 1; i--) {
+        //     int didSwap = 0;
+        //     for(int j = 0; j <= i-1; j++) {
+        //         if(arr[j] > arr[j+1]) {
+        //             swap(arr, j, j+1);
+        //             didSwap = 1;
+        //         }
+        //     }
+
+        //     if(didSwap == 0) break;
+        // }
+
+        // return arr;
+
+        for(int i = 1; i <= arr.length - 1; i++) {
             int didSwap = 0;
-            for(int j = 0; j <= i-1; j++) {
+            for(int j = 0; j < arr.length-i; i++) {
                 if(arr[j] > arr[j+1]) {
                     swap(arr, j, j+1);
                     didSwap = 1;
                 }
             }
 
-            if(didSwap == 0) break;
+            if(didSwap == 1) break;
         }
 
         return arr;
