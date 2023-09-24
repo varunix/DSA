@@ -37,16 +37,16 @@ public class BubbleSort {
 
         // return arr;
 
-        for(int i = 1; i <= arr.length - 1; i++) {
+        for(int i = 0; i < arr.length - 1; i++) {
             int didSwap = 0;
-            for(int j = 0; j < arr.length-i; i++) {
+            for(int j = 0; j < arr.length-i-1; j++) {
                 if(arr[j] > arr[j+1]) {
                     swap(arr, j, j+1);
                     didSwap = 1;
                 }
             }
 
-            if(didSwap == 1) break;
+            if(didSwap == 0) break;
         }
 
         return arr;
