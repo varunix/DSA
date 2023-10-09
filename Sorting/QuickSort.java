@@ -4,6 +4,12 @@ import java.util.Scanner;
 
 public class QuickSort {
 
+    static void printArr(int[] arr) {
+        for(int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]+" ");
+        }
+    }
+
     static void inputArr(int[] arr, int n) {
         Scanner scn = new Scanner(System.in);
         for(int i = 0; i < n; i++) {
@@ -30,8 +36,8 @@ public class QuickSort {
     }
 
     static void sortArr(int[] arr, int low, int high) {
-        if(low >= high) return;
-        int pivot = arr[low];
+        if(low > high) return;
+        int pivot = arr[high];
         int pIndex = partition(arr, pivot, low, high);
         sortArr(arr, low, pIndex-1);
         sortArr(arr, pIndex+1, high);
@@ -41,5 +47,6 @@ public class QuickSort {
         int[] arr = new int[n];
         inputArr(arr, n);
         sortArr(arr, 0, arr.length-1);
+        printArr(arr);
     }
 }

@@ -11,6 +11,6 @@ public class Main {
         // bubbleSort.bubbleSort(6);
         // insertionSort.insertionSort(5);
         // mergeSort.mergeSort(5);
-        // quickSort.quickSort(5);
+        quickSort.quickSort(5);
     }
 }
