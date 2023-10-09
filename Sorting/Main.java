@@ -8,11 +8,12 @@ public class Main {
         MergeSort mergeSort = new MergeSort();
         QuickSort quickSort = new QuickSort();
         RecursiveBubbleSort recursiveBubbleSort = new RecursiveBubbleSort();
+        RecursiveInsertionSort recursiveInsertionSort = new RecursiveInsertionSort();
         // selectionSort.selectionSort(6);
         // bubbleSort.bubbleSort(6);
         // insertionSort.insertionSort(5);
         // mergeSort.mergeSort(5);
         // quickSort.quickSort(5);
-        recursiveBubbleSort.recursiveBubbleSort(5);
+        recursiveInsertionSort.recursiveInsertionSort(5);
     }
 }
