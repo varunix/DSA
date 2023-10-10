@@ -1,5 +1,6 @@
 package Sorting;
 
+import Arrays.Easy.ArrayIsSortedCheck;
 import Arrays.Easy.LargestElement;
 import Arrays.Easy.SecondLargestAndSecondSmallestElement;
 
@@ -14,6 +15,7 @@ public class Main {
         RecursiveInsertionSort recursiveInsertionSort = new RecursiveInsertionSort();
         LargestElement largestElement = new LargestElement();
         SecondLargestAndSecondSmallestElement secondLargestAndSecondSmallestElement = new SecondLargestAndSecondSmallestElement();
+        ArrayIsSortedCheck arrayIsSortedCheck = new ArrayIsSortedCheck();
         // selectionSort.selectionSort(6);
         // bubbleSort.bubbleSort(6);
         // insertionSort.insertionSort(5);
@@ -21,6 +23,7 @@ public class Main {
         // quickSort.quickSort(5);
         // recursiveInsertionSort.recursiveInsertionSort(5);
         // largestElement.largestElement(5);
-        secondLargestAndSecondSmallestElement.secondLargestAndSecondSmallestElement(6);
+        // secondLargestAndSecondSmallestElement.secondLargestAndSecondSmallestElement(6);
+        ArrayIsSortedCheck.arrayIsSortedCheck(5);
     }
 }
