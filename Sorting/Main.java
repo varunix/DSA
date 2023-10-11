@@ -2,6 +2,7 @@ package Sorting;
 
 import Arrays.Easy.ArrayIsSortedCheck;
 import Arrays.Easy.LargestElement;
+import Arrays.Easy.RemoveDuplicates;
 import Arrays.Easy.SecondLargestAndSecondSmallestElement;
 
 public class Main {
@@ -16,6 +17,7 @@ public class Main {
         LargestElement largestElement = new LargestElement();
         SecondLargestAndSecondSmallestElement secondLargestAndSecondSmallestElement = new SecondLargestAndSecondSmallestElement();
         ArrayIsSortedCheck arrayIsSortedCheck = new ArrayIsSortedCheck();
+        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
         // selectionSort.selectionSort(6);
         // bubbleSort.bubbleSort(6);
         // insertionSort.insertionSort(5);
@@ -24,6 +26,7 @@ public class Main {
         // recursiveInsertionSort.recursiveInsertionSort(5);
         // largestElement.largestElement(5);
         // secondLargestAndSecondSmallestElement.secondLargestAndSecondSmallestElement(6);
-        ArrayIsSortedCheck.arrayIsSortedCheck(5);
+        // arrayIsSortedCheck.arrayIsSortedCheck(5);
+        removeDuplicates.removeDuplicates(7); //An integer array sorted in non-decreasing order
     }
 }
