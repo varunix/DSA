@@ -7,10 +7,12 @@ public class Main {
         ArrayIsSortedCheck arrayIsSortedCheck = new ArrayIsSortedCheck();
         RemoveDuplicates removeDuplicates = new RemoveDuplicates();
         LeftRotateArrayByOne leftRotateArrayByOne = new LeftRotateArrayByOne();
+        RotateArrayByKElements rotateArrayByKElements = new RotateArrayByKElements();
         // largestElement.largestElement(5);
         // secondLargestAndSecondSmallestElement.secondLargestAndSecondSmallestElement(6);
         // arrayIsSortedCheck.arrayIsSortedCheck(5);
         // removeDuplicates.removeDuplicates(7); //An integer array sorted in non-decreasing order
-        leftRotateArrayByOne.leftRotate(5);
+        // leftRotateArrayByOne.leftRotate(5);
+        rotateArrayByKElements.rotateArrayByKElements(4, 6);
     }
 }

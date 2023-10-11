@@ -49,7 +49,7 @@ public class RemoveDuplicates {
         // int[] res = removeDuplicate(arr);
         // printArr(res);
 
-        //OR
+        //OR using In-place algorithm
         int k = removeDuplicate(arr);
         for(int i = 0; i<k; i++) {
             System.out.print(arr[i] + " ");
