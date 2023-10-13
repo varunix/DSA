@@ -10,6 +10,7 @@ public class Main {
         RotateArrayByKElements rotateArrayByKElements = new RotateArrayByKElements();
         ZerosToTheEnd zerosToTheEnd = new ZerosToTheEnd();
         UnionOfTwoSortedArrays unionOfTwoSortedArrays = new UnionOfTwoSortedArrays();
+        FindMissingNumberXOR findMissingNumberXOR = new FindMissingNumberXOR();
         // largestElement.largestElement(5);
         // secondLargestAndSecondSmallestElement.secondLargestAndSecondSmallestElement(6);
         // arrayIsSortedCheck.arrayIsSortedCheck(5);
@@ -17,6 +18,7 @@ public class Main {
         // leftRotateArrayByOne.leftRotate(5);
         // rotateArrayByKElements.rotateArrayByKElements(7, 2);
         // zerosToTheEnd.zerosToTheEnd(8);
-        unionOfTwoSortedArrays.unionOfTwoSortedArrays();
+        // unionOfTwoSortedArrays.unionOfTwoSortedArrays();
+        findMissingNumberXOR.findMissingNumberXOR(5, 4);
     }
 }
