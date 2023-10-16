@@ -13,6 +13,7 @@ public class Main {
         FindMissingNumberXOR findMissingNumberXOR = new FindMissingNumberXOR();
         CountMaximumConsecutiveOne consecutiveOne = new CountMaximumConsecutiveOne();
         NumberThatAppearsOnce numberThatAppearsOnce = new NumberThatAppearsOnce();
+        LongestSubarrayWithGivenSumKPositives longestGivenSumKPositives = new LongestSubarrayWithGivenSumKPositives();
         // largestElement.largestElement(5);
         // secondLargestAndSecondSmallestElement.secondLargestAndSecondSmallestElement(6);
         // arrayIsSortedCheck.arrayIsSortedCheck(5);
@@ -23,6 +24,7 @@ public class Main {
         // unionOfTwoSortedArrays.unionOfTwoSortedArrays();
         // findMissingNumberXOR.findMissingNumberXOR(5, 4);
         // consecutiveOne.countMaximumConsecutiveOne();
-        numberThatAppearsOnce.numberThatAppearsOnce();
+        // numberThatAppearsOnce.numberThatAppearsOnce();
+        longestGivenSumKPositives.longestSubarray();
     }
 }
