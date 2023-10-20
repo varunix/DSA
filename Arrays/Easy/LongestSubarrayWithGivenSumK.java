@@ -2,7 +2,7 @@ package Arrays.Easy;
 
 import java.util.HashMap;
 
-public class LongestSubarrayWithGivenSumKPositives {
+public class LongestSubarrayWithGivenSumK {
     static int findSum(int[] arr, int N, int k) {
         //Better Approach (Hashing)
         int maxLen = 0;
@@ -23,6 +23,7 @@ public class LongestSubarrayWithGivenSumKPositives {
                 maxLen = Math.max(maxLen, len);
             }
 
+            //condition added to cover negatives and zeroes in array
             if(!preSumMap.containsKey(sum)) {
                 preSumMap.put(sum, i);
             }
@@ -52,8 +53,8 @@ public class LongestSubarrayWithGivenSumKPositives {
     }
 
     static void longestSubarray() {
-        int N = 5, k = 10;
-        int[] arr = {2,3,5,1,9};
+        int N = 3, k = 1;
+        int[] arr = {-1, 1, 1};
         int res = findSum(arr, N, k);
         System.out.println(res);
     }

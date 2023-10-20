@@ -13,7 +13,7 @@ public class Main {
         FindMissingNumberXOR findMissingNumberXOR = new FindMissingNumberXOR();
         CountMaximumConsecutiveOne consecutiveOne = new CountMaximumConsecutiveOne();
         NumberThatAppearsOnce numberThatAppearsOnce = new NumberThatAppearsOnce();
-        LongestSubarrayWithGivenSumKPositives longestGivenSumKPositives = new LongestSubarrayWithGivenSumKPositives();
+        LongestSubarrayWithGivenSumK longestGivenSumKPositives = new LongestSubarrayWithGivenSumK();
         // largestElement.largestElement(5);
         // secondLargestAndSecondSmallestElement.secondLargestAndSecondSmallestElement(6);
         // arrayIsSortedCheck.arrayIsSortedCheck(5);
