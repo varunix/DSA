@@ -8,6 +8,13 @@
             "type": "java",
             "name": "Main",
             "request": "launch",
+            "mainClass": "Arrays.Medium.Main",
+            "projectName": "DS_fd0dea7a"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
             "mainClass": "Hashing.Main",
             "projectName": "DS_fd0dea7a"
         },

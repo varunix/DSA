@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 public class LongestSubarrayWithGivenSumK {
     static int findSum(int[] arr, int N, int k) {
-        //Better Approach (Hashing)
+        //Better approach (Hashing) for +ves and optimal approach for -ves
         int maxLen = 0;
         long sum = 0;
         HashMap<Long, Integer> preSumMap = new HashMap<>();
@@ -31,7 +31,7 @@ public class LongestSubarrayWithGivenSumK {
 
         return maxLen;
 
-        //Optimal Approach (2 pointers)
+        //Optimal approach (2 pointers) only for +ves
         // int maxLen = 0;
         // long sum = arr[0];
         // int left = 0, right = 0;
