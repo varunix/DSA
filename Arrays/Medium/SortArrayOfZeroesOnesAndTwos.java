@@ -40,16 +40,16 @@ public class SortArrayOfZeroesOnesAndTwos {
         int low = 0;
         int mid = 0;
         int high = nums.length-1;
-        while(mid < high) {
+        while(mid <= high) {
             if(nums[mid] == 0) {
                 swap(nums, low, mid);
                 low++;
                 mid++;
             }
-            if(nums[mid] == 1) {
+            else if(nums[mid] == 1) {
                 mid++;
             }
-            if(nums[mid] == 2) {
+            else {
                 swap(nums, mid, high);
                 high--;
             }
@@ -65,7 +65,7 @@ public class SortArrayOfZeroesOnesAndTwos {
     }
 
     public static void sortArrayOfZeroesOnesAndTwos() {
-        int[] nums = {2,0,2,1,1,0};
+        int[] nums = {2,0,1};
         int[] res = sortArr(nums);
         printArr(res);
     }
