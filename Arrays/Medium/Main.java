@@ -4,7 +4,9 @@ public class Main {
     public static void main(String[] args) {
         TwoSum twoSum = new TwoSum();
         SortArrayOfZeroesOnesAndTwos sortArr = new SortArrayOfZeroesOnesAndTwos();
+        FindTheMajorityElement findTheMajorityElement = new FindTheMajorityElement();
         // twoSum.twoSum();
-        sortArr.sortArrayOfZeroesOnesAndTwos();
+        // sortArr.sortArrayOfZeroesOnesAndTwos();
+        findTheMajorityElement.findTheMajorityElement();
     }
 }
