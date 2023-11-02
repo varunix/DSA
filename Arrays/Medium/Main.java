@@ -6,9 +6,11 @@ public class Main {
         SortArrayOfZeroesOnesAndTwos sortArr = new SortArrayOfZeroesOnesAndTwos();
         FindTheMajorityElement findTheMajorityElement = new FindTheMajorityElement();
         MaximumSubarraySum maximumSubarraySum = new MaximumSubarraySum();
+        StockBuyAndSell stockBuyAndSell = new StockBuyAndSell();
         // twoSum.twoSum();
         // sortArr.sortArrayOfZeroesOnesAndTwos();
         // findTheMajorityElement.findTheMajorityElement();
-        maximumSubarraySum.maximumSubarraySum();
+        // maximumSubarraySum.maximumSubarraySum();
+        stockBuyAndSell.stockBuyAndSell();
     }
 }
