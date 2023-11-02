@@ -5,8 +5,10 @@ public class Main {
         TwoSum twoSum = new TwoSum();
         SortArrayOfZeroesOnesAndTwos sortArr = new SortArrayOfZeroesOnesAndTwos();
         FindTheMajorityElement findTheMajorityElement = new FindTheMajorityElement();
+        MaximumSubarraySum maximumSubarraySum = new MaximumSubarraySum();
         // twoSum.twoSum();
         // sortArr.sortArrayOfZeroesOnesAndTwos();
-        findTheMajorityElement.findTheMajorityElement();
+        // findTheMajorityElement.findTheMajorityElement();
+        maximumSubarraySum.maximumSubarraySum();
     }
 }
