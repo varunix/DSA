@@ -7,10 +7,12 @@ public class Main {
         FindTheMajorityElement findTheMajorityElement = new FindTheMajorityElement();
         MaximumSubarraySum maximumSubarraySum = new MaximumSubarraySum();
         StockBuyAndSell stockBuyAndSell = new StockBuyAndSell();
+        RearrangeArrayElementsBySign reArrangeArray = new RearrangeArrayElementsBySign();
         // twoSum.twoSum();
         // sortArr.sortArrayOfZeroesOnesAndTwos();
         // findTheMajorityElement.findTheMajorityElement();
         // maximumSubarraySum.maximumSubarraySum();
-        stockBuyAndSell.stockBuyAndSell();
+        // stockBuyAndSell.stockBuyAndSell();
+        reArrangeArray.rearrangeArrayElementsBySign();
     }
 }
