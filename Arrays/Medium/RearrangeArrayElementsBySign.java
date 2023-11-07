@@ -3,28 +3,40 @@ package Arrays.Medium;
 import java.util.ArrayList;
 
 public class RearrangeArrayElementsBySign {
-    static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[j] = arr[j];
-        arr[j] = temp;
-    }
+    //In O(2N)
+    // static int[] reArrange(int[] arr, int n) {
+    //     ArrayList<Integer> pos = new ArrayList<Integer>();
+    //     ArrayList<Integer> neg = new ArrayList<Integer>();
 
+    //     for(int i=0; i<arr.length; i++) {
+    //         if(arr[i] < 0) {
+    //             neg.add(arr[i]);
+    //         } else pos.add(arr[i]);
+    //     }
+
+    //     for(int i=0; i<n/2; i++) {
+    //         arr[2*i] = pos.get(i);
+    //         arr[2*i+1] = neg.get(i);
+    //     }
+
+    //     return arr;
+    // }
+
+    //In O(N)
     static int[] reArrange(int[] arr, int n) {
-        ArrayList<Integer> pos = new ArrayList<Integer>();
-        ArrayList<Integer> neg = new ArrayList<Integer>();
-
+        int[] ans = new int[n];
+        int pos=0, neg=1;
         for(int i=0; i<arr.length; i++) {
-            if(arr[i] < 0) {
-                neg.add(arr[i]);
-            } else pos.add(arr[i]);
+            if(arr[i] >= 0) {
+                ans[pos] = arr[i];
+                pos+=2;
+            } else {
+                ans[neg] = arr[i];
+                neg+=2;
+            }
         }
 
-        for(int i=0; i<n/2; i++) {
-            arr[2*i] = pos.get(i);
-            arr[2*i+1] = neg.get(i);
-        }
-
-        return arr;
+        return ans;
     }
 
     static void rearrangeArrayElementsBySign() {
@@ -34,8 +46,8 @@ public class RearrangeArrayElementsBySign {
         int[] ans = reArrange(A, N);
 
         System.out.println("Rearranged Array:");
-        for(int i=0; i<ans.length;i++) {
-            System.out.print(ans[i]+" ");
+        for(int i: ans) {
+            System.out.print(i+" ");
         }
     }
 }
